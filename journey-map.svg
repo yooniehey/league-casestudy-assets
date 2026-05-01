@@ -1,0 +1,400 @@
+<svg width="1400" height="780" viewBox="0 0 1400 780" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      * { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .label-row { font-size: 11px; font-weight: 700; fill: #888888; letter-spacing: 0.08em; }
+      .stage-title { font-size: 13px; font-weight: 700; fill: #1a1a1a; }
+      .stage-sub { font-size: 11px; font-weight: 400; fill: #666666; }
+      .cell-text { font-size: 11px; font-weight: 400; fill: #333333; }
+      .cell-quote { font-size: 11px; font-weight: 400; fill: #555555; font-style: italic; }
+      .pain-text { font-size: 11px; font-weight: 400; fill: #8B0000; }
+      .opp-text { font-size: 11px; font-weight: 600; fill: #0F6E56; }
+      .emotion-label { font-size: 10px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="780" fill="#ffffff"/>
+
+  <!-- ── HEADER ── -->
+  <rect width="1400" height="64" fill="#0a0a0a"/>
+  <text x="40" y="28" style="font-size:18px;font-weight:700;fill:#ffffff;">User journey map — champion select intent system</text>
+  <text x="40" y="50" style="font-size:12px;font-weight:400;fill:#888888;">Persona: The Flex Player · League of Legends · UX Concept · Kevina Seo · 2025</text>
+  <text x="1360" y="38" text-anchor="end" style="font-size:11px;font-weight:500;fill:#c9a84c;">Current state</text>
+  <rect x="1368" y="28" width="20" height="8" rx="2" fill="#c9a84c"/>
+
+  <!-- ── STAGE COLUMNS ── -->
+  <!-- 6 stages: matchmaking accept, entry/intent, ban phase, pick phase, post-lock, game start -->
+  <!-- Column widths: label col 120px, then 6 × 210px = 1260px, total 1380px -->
+
+  <!-- Column headers background alternating -->
+  <rect x="120" y="64" width="213" height="716" fill="#fafafa"/>
+  <rect x="333" y="64" width="213" height="716" fill="#f5f5f5"/>
+  <rect x="546" y="64" width="213" height="716" fill="#fafafa"/>
+  <rect x="759" y="64" width="213" height="716" fill="#f5f5f5"/>
+  <rect x="972" y="64" width="213" height="716" fill="#fafafa"/>
+  <rect x="1185" y="64" width="215" height="716" fill="#f5f5f5"/>
+
+  <!-- Column vertical dividers -->
+  <line x1="120" y1="64" x2="120" y2="780" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="333" y1="64" x2="333" y2="780" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="546" y1="64" x2="546" y2="780" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="759" y1="64" x2="759" y2="780" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="972" y1="64" x2="972" y2="780" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="1185" y1="64" x2="1185" y2="780" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- ── STAGE TITLES (row 1: y=64 to y=110) ── -->
+  <rect x="0" y="64" width="1400" height="46" fill="#1a1a1a"/>
+
+  <!-- Row label -->
+  <text x="10" y="91" style="font-size:10px;font-weight:700;fill:#888888;letter-spacing:0.08em;">STAGE</text>
+
+  <!-- Stage 1: Matchmaking -->
+  <text x="226" y="84" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#ffffff;">01 · Matchmaking pops</text>
+  <text x="226" y="101" text-anchor="middle" style="font-size:10px;font-weight:400;fill:#aaaaaa;">Accept · load into champ select</text>
+
+  <!-- Stage 2: Entry / Intent -->
+  <text x="439" y="84" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#c9a84c;">02 · Entry — intent prompt</text>
+  <text x="439" y="101" text-anchor="middle" style="font-size:10px;font-weight:400;fill:#888888;">New moment · 0–10 seconds</text>
+
+  <!-- Stage 3: Ban phase -->
+  <text x="652" y="84" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#ffffff;">03 · Ban phase</text>
+  <text x="652" y="101" text-anchor="middle" style="font-size:10px;font-weight:400;fill:#aaaaaa;">~30 seconds</text>
+
+  <!-- Stage 4: Pick phase -->
+  <text x="865" y="84" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#c9a84c;">04 · Pick phase</text>
+  <text x="865" y="101" text-anchor="middle" style="font-size:10px;font-weight:400;fill:#888888;">~60 seconds · new nudge moment</text>
+
+  <!-- Stage 5: Post-lock -->
+  <text x="1078" y="84" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#c9a84c;">05 · Post-lock</text>
+  <text x="1078" y="101" text-anchor="middle" style="font-size:10px;font-weight:400;fill:#888888;">New moment · loading screen</text>
+
+  <!-- Stage 6: Game starts -->
+  <text x="1292" y="84" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#ffffff;">06 · Game begins</text>
+  <text x="1292" y="101" text-anchor="middle" style="font-size:10px;font-weight:400;fill:#aaaaaa;">Minute 1–3</text>
+
+  <!-- ── ROW DIVIDERS AND LABELS ── -->
+  <!-- Row 2: Doing (y=110 to y=186) -->
+  <rect x="0" y="110" width="120" height="76" fill="#f0f0f0"/>
+  <text x="10" y="152" style="font-size:10px;font-weight:700;fill:#888888;letter-spacing:0.08em;">DOING</text>
+  <line x1="0" y1="110" x2="1400" y2="110" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Row 3: Thinking (y=186 to y=276) -->
+  <rect x="0" y="186" width="120" height="90" fill="#f0f0f0"/>
+  <text x="10" y="234" style="font-size:10px;font-weight:700;fill:#888888;letter-spacing:0.08em;">THINKING</text>
+  <line x1="0" y1="186" x2="1400" y2="186" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Row 4: Feeling / emotion curve (y=276 to y=390) -->
+  <rect x="0" y="276" width="120" height="114" fill="#f0f0f0"/>
+  <text x="10" y="336" style="font-size:10px;font-weight:700;fill:#888888;letter-spacing:0.08em;">FEELING</text>
+  <line x1="0" y1="276" x2="1400" y2="276" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Row 5: Pain points (y=390 to y=510) -->
+  <rect x="0" y="390" width="120" height="120" fill="#fff0f0"/>
+  <text x="10" y="453" style="font-size:10px;font-weight:700;fill:#cc0000;letter-spacing:0.08em;">PAIN POINTS</text>
+  <line x1="0" y1="390" x2="1400" y2="390" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Row 6: Opportunities (y=510 to y=660) -->
+  <rect x="0" y="510" width="120" height="150" fill="#edfaf4"/>
+  <text x="10" y="588" style="font-size:10px;font-weight:700;fill:#0F6E56;letter-spacing:0.08em;">OPPORTUNITY</text>
+  <line x1="0" y1="510" x2="1400" y2="510" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Row 7: Design response (y=660 to y=760) -->
+  <rect x="0" y="660" width="120" height="100" fill="#FFF8E8"/>
+  <text x="10" y="714" style="font-size:10px;font-weight:700;fill:#854F0B;letter-spacing:0.08em;">DESIGN</text>
+  <text x="10" y="727" style="font-size:10px;font-weight:700;fill:#854F0B;letter-spacing:0.08em;">RESPONSE</text>
+  <line x1="0" y1="660" x2="1400" y2="660" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- ══════════════════════════════════════════
+       STAGE 1: MATCHMAKING POPS (x=120–333)
+  ══════════════════════════════════════════ -->
+  <!-- Doing -->
+  <text x="226" y="132" text-anchor="middle" class="cell-text">Queue accepts</text>
+  <text x="226" y="148" text-anchor="middle" class="cell-text">Loading into lobby</text>
+  <text x="226" y="164" text-anchor="middle" class="cell-text">Sees champion select screen</text>
+
+  <!-- Thinking -->
+  <text x="226" y="207" text-anchor="middle" class="cell-quote">"Ok let's go, I hope</text>
+  <text x="226" y="221" text-anchor="middle" class="cell-quote">I get a good team today"</text>
+  <text x="226" y="241" text-anchor="middle" class="cell-text">Scanning teammates' names</text>
+  <text x="226" y="257" text-anchor="middle" class="cell-text">No info available yet</text>
+
+  <!-- Feeling dot: Neutral/hopeful -->
+  <circle cx="226" cy="330" r="10" fill="#EF9F27" stroke="#BA7517" stroke-width="1.5"/>
+  <text x="226" y="358" text-anchor="middle" class="emotion-label" fill="#854F0B">Neutral</text>
+  <text x="226" y="372" text-anchor="middle" style="font-size:10px;fill:#888888;">Hopeful</text>
+
+  <!-- Pain points -->
+  <text x="130" y="412" class="pain-text">No information about</text>
+  <text x="130" y="426" class="pain-text">who these 4 people are</text>
+  <text x="130" y="446" class="pain-text">or how they play.</text>
+  <text x="130" y="466" class="pain-text">Nothing to go on.</text>
+  <text x="130" y="486" class="pain-text">Defaults to hope.</text>
+
+  <!-- Opportunity -->
+  <text x="130" y="530" class="cell-text" fill="#666666">No intervention needed</text>
+  <text x="130" y="547" class="cell-text" fill="#666666">at this stage — this is</text>
+  <text x="130" y="563" class="cell-text" fill="#666666">the entry point into</text>
+  <text x="130" y="579" class="cell-text" fill="#666666">the design problem.</text>
+
+  <!-- Design response -->
+  <text x="130" y="680" class="cell-text" fill="#888888">—</text>
+
+  <!-- ══════════════════════════════════════════
+       STAGE 2: ENTRY / INTENT PROMPT (x=333–546)
+       HIGHLIGHTED — new feature
+  ══════════════════════════════════════════ -->
+  <rect x="333" y="110" width="213" height="550" fill="rgba(201,168,76,0.04)"/>
+
+  <!-- Doing -->
+  <text x="439" y="128" text-anchor="middle" class="cell-text" fill="#7a5000">Sees intent prompt appear</text>
+  <text x="439" y="144" text-anchor="middle" class="cell-text" fill="#7a5000">Reads 4 token options</text>
+  <text x="439" y="160" text-anchor="middle" class="cell-text" fill="#7a5000">Taps "Flexible" in 1–2 sec</text>
+  <text x="439" y="176" text-anchor="middle" class="cell-text" fill="#7a5000">Sees teammates' tokens</text>
+
+  <!-- Thinking -->
+  <text x="439" y="207" text-anchor="middle" class="cell-quote" fill="#7a5000">"Oh interesting — one</text>
+  <text x="439" y="221" text-anchor="middle" class="cell-quote" fill="#7a5000">one-trick, one counter-pick."</text>
+  <text x="439" y="241" text-anchor="middle" class="cell-text" fill="#7a5000">"I'll mark myself flexible</text>
+  <text x="439" y="255" text-anchor="middle" class="cell-text" fill="#7a5000">so they know I can adapt."</text>
+  <text x="439" y="271" text-anchor="middle" class="cell-text" fill="#7a5000">Feels useful immediately</text>
+
+  <!-- Feeling dot: Engaged, clarity -->
+  <circle cx="439" cy="310" r="10" fill="#1D9E75" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="439" y="338" text-anchor="middle" class="emotion-label" fill="#085041">Engaged</text>
+  <text x="439" y="352" text-anchor="middle" style="font-size:10px;fill:#888888;">Clarity + purpose</text>
+
+  <!-- Pain points -->
+  <text x="343" y="412" class="cell-text" fill="#555555">None at this stage</text>
+  <text x="343" y="428" class="cell-text" fill="#555555">in the new system.</text>
+  <text x="343" y="450" style="font-size:10px;fill:#888888;font-style:italic;">In current system:</text>
+  <text x="343" y="465" class="pain-text">No way to signal flexibility.</text>
+  <text x="343" y="480" class="pain-text">Has to type or stay silent.</text>
+  <text x="343" y="495" class="pain-text">Teammates assume rigidity.</text>
+
+  <!-- Opportunity -->
+  <text x="343" y="530" class="opp-text">Give flex players a</text>
+  <text x="343" y="545" class="opp-text">voice before the first</text>
+  <text x="343" y="560" class="opp-text">ban is even made.</text>
+  <text x="343" y="580" class="cell-text" fill="#666666">One tap. No typing.</text>
+  <text x="343" y="595" class="cell-text" fill="#666666">Language-agnostic.</text>
+  <text x="343" y="610" class="cell-text" fill="#666666">Visible to all 5 slots.</text>
+  <text x="343" y="628" class="cell-text" fill="#666666">Dismissible with no friction.</text>
+
+  <!-- Design response -->
+  <rect x="340" y="666" width="199" height="84" rx="4" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="439" y="686" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#7a5000;">Intent token prompt</text>
+  <text x="439" y="701" text-anchor="middle" style="font-size:10px;fill:#a06800;">One-trick · Flexible</text>
+  <text x="439" y="715" text-anchor="middle" style="font-size:10px;fill:#a06800;">Counter-pick · Autofilled</text>
+  <text x="439" y="731" text-anchor="middle" style="font-size:10px;fill:#888888;">Optional · 1 tap · instant</text>
+
+  <!-- ══════════════════════════════════════════
+       STAGE 3: BAN PHASE (x=546–759)
+  ══════════════════════════════════════════ -->
+  <!-- Doing -->
+  <text x="652" y="132" text-anchor="middle" class="cell-text">Watches bans unfold</text>
+  <text x="652" y="148" text-anchor="middle" class="cell-text">Sees teammates' intent tokens</text>
+  <text x="652" y="164" text-anchor="middle" class="cell-text">Considers what to ban</text>
+  <text x="652" y="180" text-anchor="middle" class="cell-text">for the team's shape</text>
+
+  <!-- Thinking -->
+  <text x="652" y="207" text-anchor="middle" class="cell-quote">"One-trick Yone top —</text>
+  <text x="652" y="221" text-anchor="middle" class="cell-quote">I should ban his counters."</text>
+  <text x="652" y="241" text-anchor="middle" class="cell-text">"Counter-picker mid means</text>
+  <text x="652" y="255" text-anchor="middle" class="cell-text">they need time — don't rush."</text>
+  <text x="652" y="271" text-anchor="middle" class="cell-text">First time bans feel informed</text>
+
+  <!-- Feeling dot: calm, more confident -->
+  <circle cx="652" cy="310" r="10" fill="#1D9E75" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="652" y="338" text-anchor="middle" class="emotion-label" fill="#085041">Calm</text>
+  <text x="652" y="352" text-anchor="middle" style="font-size:10px;fill:#888888;">More informed</text>
+
+  <!-- Pain points -->
+  <text x="556" y="412" class="cell-text" fill="#555555">Still no ban coordination.</text>
+  <text x="556" y="428" class="pain-text">Can see intent but can't</text>
+  <text x="556" y="442" class="pain-text">request specific bans.</text>
+  <text x="556" y="462" style="font-size:10px;fill:#888888;font-style:italic;">Cut from V1 — ban signal</text>
+  <text x="556" y="475" style="font-size:10px;fill:#888888;font-style:italic;">creates conflict edge cases.</text>
+
+  <!-- Opportunity -->
+  <text x="556" y="530" class="cell-text" fill="#666666">Intent tokens give context</text>
+  <text x="556" y="545" class="cell-text" fill="#666666">even without a ban signal.</text>
+  <text x="556" y="565" class="cell-text" fill="#666666">Knowing a teammate is a</text>
+  <text x="556" y="580" class="cell-text" fill="#666666">one-trick shapes what</text>
+  <text x="556" y="595" class="cell-text" fill="#666666">you protect or ban for them.</text>
+
+  <!-- Design response -->
+  <text x="556" y="685" class="cell-text" fill="#888888">Intent tokens persist</text>
+  <text x="556" y="700" class="cell-text" fill="#888888">and are visible across</text>
+  <text x="556" y="715" class="cell-text" fill="#888888">all slots during bans.</text>
+  <text x="556" y="733" style="font-size:10px;fill:#aaaaaa;font-style:italic;">Passive, no new UI needed.</text>
+
+  <!-- ══════════════════════════════════════════
+       STAGE 4: PICK PHASE (x=759–972)
+       HIGHLIGHTED — conflict nudge
+  ══════════════════════════════════════════ -->
+  <rect x="759" y="110" width="213" height="550" fill="rgba(201,168,76,0.04)"/>
+
+  <!-- Doing -->
+  <text x="865" y="128" text-anchor="middle" class="cell-text" fill="#7a5000">Watches team lock in</text>
+  <text x="865" y="144" text-anchor="middle" class="cell-text" fill="#7a5000">Sees 3 carries already locked</text>
+  <text x="865" y="160" text-anchor="middle" class="cell-text" fill="#7a5000">Receives soft nudge:</text>
+  <text x="865" y="176" text-anchor="middle" class="cell-text" fill="#7a5000">"No engage or frontline"</text>
+
+  <!-- Thinking -->
+  <text x="865" y="207" text-anchor="middle" class="cell-quote" fill="#7a5000">"Right — I see it too.</text>
+  <text x="865" y="221" text-anchor="middle" class="cell-quote" fill="#7a5000">I should play Thresh."</text>
+  <text x="865" y="241" text-anchor="middle" class="cell-text" fill="#7a5000">"The nudge confirmed what</text>
+  <text x="865" y="255" text-anchor="middle" class="cell-text" fill="#7a5000">I was already thinking."</text>
+  <text x="865" y="271" text-anchor="middle" class="cell-text" fill="#7a5000">Feels validated, not judged</text>
+
+  <!-- Feeling: Confident -->
+  <circle cx="865" cy="310" r="10" fill="#1D9E75" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="865" y="338" text-anchor="middle" class="emotion-label" fill="#085041">Confident</text>
+  <text x="865" y="352" text-anchor="middle" style="font-size:10px;fill:#888888;">Empowered to adapt</text>
+
+  <!-- Pain points -->
+  <text x="769" y="412" class="cell-text" fill="#555555">None in new system.</text>
+  <text x="769" y="430" style="font-size:10px;fill:#888888;font-style:italic;">In current system:</text>
+  <text x="769" y="445" class="pain-text">No signal that the comp</text>
+  <text x="769" y="459" class="pain-text">has a gap. Flexible player</text>
+  <text x="769" y="473" class="pain-text">might not notice until</text>
+  <text x="769" y="487" class="pain-text">game is already going wrong.</text>
+
+  <!-- Opportunity -->
+  <text x="769" y="530" class="opp-text">Surface structural comp</text>
+  <text x="769" y="545" class="opp-text">gaps to the one player</text>
+  <text x="769" y="560" class="opp-text">who can do something.</text>
+  <text x="769" y="580" class="cell-text" fill="#666666">Soft amber nudge only.</text>
+  <text x="769" y="595" class="cell-text" fill="#666666">No judgment. Dismissible.</text>
+  <text x="769" y="610" class="cell-text" fill="#666666">Only triggers on objectively</text>
+  <text x="769" y="625" class="cell-text" fill="#666666">detectable structural gaps.</text>
+
+  <!-- Design response -->
+  <rect x="766" y="666" width="199" height="84" rx="4" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="865" y="686" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#7a5000;">Conflict detection nudge</text>
+  <text x="865" y="701" text-anchor="middle" style="font-size:10px;fill:#a06800;">Amber · natural language</text>
+  <text x="865" y="715" text-anchor="middle" style="font-size:10px;fill:#a06800;">Flex player only · dismissible</text>
+  <text x="865" y="731" text-anchor="middle" style="font-size:10px;fill:#888888;">Never shown to one-tricks</text>
+
+  <!-- ══════════════════════════════════════════
+       STAGE 5: POST-LOCK (x=972–1185)
+       HIGHLIGHTED — playstyle signal
+  ══════════════════════════════════════════ -->
+  <rect x="972" y="110" width="213" height="550" fill="rgba(201,168,76,0.04)"/>
+
+  <!-- Doing -->
+  <text x="1078" y="128" text-anchor="middle" class="cell-text" fill="#7a5000">All 5 locked in</text>
+  <text x="1078" y="144" text-anchor="middle" class="cell-text" fill="#7a5000">Sees playstyle prompt</text>
+  <text x="1078" y="160" text-anchor="middle" class="cell-text" fill="#7a5000">Taps "Providing peel"</text>
+  <text x="1078" y="176" text-anchor="middle" class="cell-text" fill="#7a5000">Sees Draven signal "Scaling"</text>
+
+  <!-- Thinking -->
+  <text x="1078" y="207" text-anchor="middle" class="cell-quote" fill="#7a5000">"Perfect — Draven wants</text>
+  <text x="1078" y="221" text-anchor="middle" class="cell-quote" fill="#7a5000">peel. That's my job."</text>
+  <text x="1078" y="241" text-anchor="middle" class="cell-text" fill="#7a5000">"I know my role before</text>
+  <text x="1078" y="255" text-anchor="middle" class="cell-text" fill="#7a5000">I load in. No guessing."</text>
+  <text x="1078" y="271" text-anchor="middle" class="cell-text" fill="#7a5000">Feels like a real team</text>
+
+  <!-- Feeling: Aligned, ready -->
+  <circle cx="1078" cy="310" r="10" fill="#1D9E75" stroke="#0F6E56" stroke-width="1.5"/>
+  <text x="1078" y="338" text-anchor="middle" class="emotion-label" fill="#085041">Aligned</text>
+  <text x="1078" y="352" text-anchor="middle" style="font-size:10px;fill:#888888;">Ready · purposeful</text>
+
+  <!-- Pain points -->
+  <text x="982" y="412" class="cell-text" fill="#555555">None in new system.</text>
+  <text x="982" y="430" style="font-size:10px;fill:#888888;font-style:italic;">In current system:</text>
+  <text x="982" y="445" class="pain-text">Loading screen is wasted</text>
+  <text x="982" y="459" class="pain-text">time. No shared mental</text>
+  <text x="982" y="473" class="pain-text">model formed. Players enter</text>
+  <text x="982" y="487" class="pain-text">game with zero alignment.</text>
+
+  <!-- Opportunity -->
+  <text x="982" y="530" class="opp-text">Replace dead loading time</text>
+  <text x="982" y="545" class="opp-text">with team alignment.</text>
+  <text x="982" y="563" class="cell-text" fill="#666666">Playstyle intent is the</text>
+  <text x="982" y="578" class="cell-text" fill="#666666">highest-value signal in</text>
+  <text x="982" y="593" class="cell-text" fill="#666666">the whole system. Currently</text>
+  <text x="982" y="608" class="cell-text" fill="#666666">requires voice chat to</text>
+  <text x="982" y="623" class="cell-text" fill="#666666">communicate at all.</text>
+
+  <!-- Design response -->
+  <rect x="979" y="666" width="199" height="84" rx="4" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="1078" y="686" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#7a5000;">Playstyle signal</text>
+  <text x="1078" y="701" text-anchor="middle" style="font-size:10px;fill:#a06800;">Aggressive · Scaling</text>
+  <text x="1078" y="715" text-anchor="middle" style="font-size:10px;fill:#a06800;">Roaming · Need peel</text>
+  <text x="1078" y="731" text-anchor="middle" style="font-size:10px;fill:#888888;">Loading screen · all visible</text>
+
+  <!-- ══════════════════════════════════════════
+       STAGE 6: GAME STARTS (x=1185–1400)
+  ══════════════════════════════════════════ -->
+  <!-- Doing -->
+  <text x="1292" y="132" text-anchor="middle" class="cell-text">Laning phase begins</text>
+  <text x="1292" y="148" text-anchor="middle" class="cell-text">Playing Thresh support</text>
+  <text x="1292" y="164" text-anchor="middle" class="cell-text">Peeling for Draven</text>
+  <text x="1292" y="180" text-anchor="middle" class="cell-text">Playing as agreed</text>
+
+  <!-- Thinking -->
+  <text x="1292" y="207" text-anchor="middle" class="cell-quote">"We're actually</text>
+  <text x="1292" y="221" text-anchor="middle" class="cell-quote">playing as a unit."</text>
+  <text x="1292" y="241" text-anchor="middle" class="cell-text">No early miscommunication</text>
+  <text x="1292" y="255" text-anchor="middle" class="cell-text">Executing shared plan</text>
+  <text x="1292" y="271" text-anchor="middle" class="cell-text">Feels like premade synergy</text>
+
+  <!-- Feeling: Positive, in flow -->
+  <circle cx="1292" cy="310" r="12" fill="#1D9E75" stroke="#0F6E56" stroke-width="2"/>
+  <text x="1292" y="340" text-anchor="middle" class="emotion-label" fill="#085041">In flow</text>
+  <text x="1292" y="355" text-anchor="middle" style="font-size:10px;fill:#888888;">Positive · effective</text>
+
+  <!-- Pain points -->
+  <text x="1195" y="412" class="cell-text" fill="#555555">Significantly reduced.</text>
+  <text x="1195" y="430" class="cell-text" fill="#555555">Comp misalignment</text>
+  <text x="1195" y="445" class="cell-text" fill="#555555">addressed pre-game.</text>
+  <text x="1195" y="465" style="font-size:10px;fill:#888888;font-style:italic;">Remaining risk:</text>
+  <text x="1195" y="480" style="font-size:10px;fill:#cc6600;font-style:italic;">Intent doesn't guarantee</text>
+  <text x="1195" y="494" style="font-size:10px;fill:#cc6600;font-style:italic;">execution — but reduces</text>
+  <text x="1195" y="508" style="font-size:10px;fill:#cc6600;font-style:italic;">misaligned expectations.</text>
+
+  <!-- Opportunity -->
+  <text x="1195" y="530" class="opp-text">Measure: does intent</text>
+  <text x="1195" y="545" class="opp-text">alignment reduce early</text>
+  <text x="1195" y="560" class="opp-text">surrender rate?</text>
+  <text x="1195" y="580" class="cell-text" fill="#666666">Track: pre-game toxicity,</text>
+  <text x="1195" y="595" class="cell-text" fill="#666666">token adoption by rank,</text>
+  <text x="1195" y="610" class="cell-text" fill="#666666">15-min surrender rate.</text>
+
+  <!-- Design response -->
+  <text x="1195" y="685" class="cell-text" fill="#888888">Post-launch: A/B test</text>
+  <text x="1195" y="700" class="cell-text" fill="#888888">token adoption and</text>
+  <text x="1195" y="715" class="cell-text" fill="#888888">early surrender delta.</text>
+  <text x="1195" y="733" style="font-size:10px;fill:#aaaaaa;font-style:italic;">Especially watch Autofilled token.</text>
+
+  <!-- ══════════════════════════════════════════
+       EMOTION CURVE LINE
+  ══════════════════════════════════════════ -->
+  <!-- Neutral at stage 1 (226, 330), up at stage 2 (439,310), steady (652,310), up (865,310), up (1078,310), high (1292,308) -->
+  <polyline
+    points="226,330 439,310 652,315 865,308 1078,306 1292,300"
+    fill="none"
+    stroke="#1D9E75"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="6 3"
+  />
+
+  <!-- ── OUTER BORDER ── -->
+  <rect x="0" y="0" width="1400" height="780" fill="none" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- ── LEGEND ── -->
+  <rect x="0" y="760" width="1400" height="20" fill="#f5f5f5"/>
+  <circle cx="140" cy="770" r="5" fill="#1D9E75"/>
+  <text x="150" y="774" style="font-size:10px;fill:#555555;">Emotion curve (flex player)</text>
+  <rect x="320" y="765" width="20" height="8" rx="2" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="346" y="774" style="font-size:10px;fill:#555555;">New design feature</text>
+  <rect x="460" y="765" width="8" height="8" rx="1" fill="#fff0f0" stroke="#cc0000" stroke-width="0.5"/>
+  <text x="474" y="774" style="font-size:10px;fill:#555555;">Pain point (current system)</text>
+  <rect x="640" y="765" width="8" height="8" rx="1" fill="#edfaf4" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="654" y="774" style="font-size:10px;fill:#555555;">Design opportunity</text>
+  <text x="1360" y="774" text-anchor="end" style="font-size:10px;fill:#aaaaaa;">Kevina Seo · 2025</text>
+</svg>

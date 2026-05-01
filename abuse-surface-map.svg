@@ -1,0 +1,241 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      * { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="860" fill="#ffffff"/>
+
+  <!-- ── HEADER ── -->
+  <rect width="1200" height="60" fill="#0a0a0a"/>
+  <text x="40" y="26" style="font-size:18px;font-weight:700;fill:#ffffff;">Abuse surface map</text>
+  <text x="40" y="46" style="font-size:12px;font-weight:400;fill:#888888;">Every point where a player could misuse the system · risk level · design response</text>
+  <text x="1160" y="36" text-anchor="end" style="font-size:11px;font-weight:500;fill:#c9a84c;">Champion select intent · Kevina Seo · 2025</text>
+
+  <!-- ── COLUMN HEADERS ── -->
+  <rect x="0" y="60" width="1200" height="40" fill="#f5f5f5"/>
+  <line x1="260" y1="60" x2="260" y2="820" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="560" y1="60" x2="560" y2="820" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="740" y1="60" x2="740" y2="820" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="920" y1="60" x2="920" y2="820" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="130" y="85" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#888888;letter-spacing:0.08em;">TOUCHPOINT</text>
+  <text x="410" y="85" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#888888;letter-spacing:0.08em;">POTENTIAL MISUSE</text>
+  <text x="650" y="85" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#888888;letter-spacing:0.08em;">RISK</text>
+  <text x="830" y="85" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#888888;letter-spacing:0.08em;">AFFECTED PLAYER</text>
+  <text x="1060" y="85" text-anchor="middle" style="font-size:11px;font-weight:700;fill:#0F6E56;letter-spacing:0.08em;">DESIGN RESPONSE</text>
+
+  <!-- ── SECTION: LAYER 1 — DRAFT INTENT TOKENS ── -->
+  <rect x="0" y="100" width="1200" height="32" fill="#1a1a1a"/>
+  <text x="20" y="121" style="font-size:12px;font-weight:700;fill:#c9a84c;">Layer 1 — Draft intent tokens</text>
+
+  <!-- ROW 1A: False one-trick -->
+  <rect x="0" y="132" width="1200" height="88" fill="#fafafa"/>
+  <line x1="0" y1="220" x2="1200" y2="220" stroke="#eeeeee" stroke-width="1"/>
+
+  <text x="16" y="155" style="font-size:12px;font-weight:700;fill:#1a1a1a;">Entry prompt</text>
+  <text x="16" y="172" style="font-size:11px;fill:#666666;">Player sets a draft</text>
+  <text x="16" y="187" style="font-size:11px;fill:#666666;">intent token for</text>
+  <text x="16" y="202" style="font-size:11px;fill:#666666;">the whole team to see</text>
+
+  <text x="272" y="155" style="font-size:12px;font-weight:600;fill:#8B0000;">False "One-trick" signal</text>
+  <text x="272" y="172" style="font-size:11px;fill:#555555;">Player sets "One-trick" but is</text>
+  <text x="272" y="187" style="font-size:11px;fill:#555555;">actually a first-time on that champ.</text>
+  <text x="272" y="202" style="font-size:11px;fill:#555555;">Team over-invests in protecting them.</text>
+
+  <!-- Risk: Medium -->
+  <rect x="572" y="144" width="80" height="24" rx="12" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="612" y="160" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#854F0B;">MEDIUM</text>
+
+  <text x="752" y="160" style="font-size:11px;fill:#555555;">All 4 teammates</text>
+  <text x="752" y="175" style="font-size:11px;fill:#555555;">adjust strategy</text>
+  <text x="752" y="190" style="font-size:11px;fill:#555555;">unnecessarily</text>
+
+  <text x="932" y="152" style="font-size:11px;fill:#0F6E56;">Tokens are non-binding</text>
+  <text x="932" y="167" style="font-size:11px;fill:#0F6E56;">by design — players</text>
+  <text x="932" y="182" style="font-size:11px;fill:#0F6E56;">understand these are</text>
+  <text x="932" y="197" style="font-size:11px;fill:#0F6E56;">intent signals, not</text>
+  <text x="932" y="212" style="font-size:11px;fill:#0F6E56;">contracts. Risk accepted.</text>
+
+  <!-- ROW 1B: Autofilled as weapon -->
+  <rect x="0" y="220" width="1200" height="100" fill="#ffffff"/>
+  <line x1="0" y1="320" x2="1200" y2="320" stroke="#eeeeee" stroke-width="1"/>
+
+  <text x="272" y="243" style="font-size:12px;font-weight:600;fill:#8B0000;">"Autofilled" used to pre-excuse</text>
+  <text x="272" y="259" style="font-size:11px;fill:#555555;">Player sets "Autofilled" before</text>
+  <text x="272" y="274" style="font-size:11px;fill:#555555;">every game to lower expectations</text>
+  <text x="272" y="289" style="font-size:11px;fill:#555555;">and avoid accountability, even</text>
+  <text x="272" y="304" style="font-size:11px;fill:#555555;">when they queued their role.</text>
+
+  <!-- Risk: High -->
+  <rect x="572" y="254" width="68" height="24" rx="12" fill="#fff0f0" stroke="#cc0000" stroke-width="1"/>
+  <text x="606" y="270" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#8B0000;">HIGH</text>
+
+  <text x="752" y="262" style="font-size:11px;fill:#555555;">Teammates</text>
+  <text x="752" y="277" style="font-size:11px;fill:#555555;">frustrated by apparent</text>
+  <text x="752" y="292" style="font-size:11px;fill:#555555;">lack of accountability</text>
+
+  <text x="932" y="248" style="font-size:11px;fill:#0F6E56;">Highest-risk token.</text>
+  <text x="932" y="263" style="font-size:11px;fill:#0F6E56;">Needs A/B testing before</text>
+  <text x="932" y="278" style="font-size:11px;fill:#0F6E56;">launch. Kept as removable</text>
+  <text x="932" y="293" style="font-size:11px;fill:#0F6E56;">component. May ship V1</text>
+  <text x="932" y="308" style="font-size:11px;fill:#0F6E56;">without it if data is bad.</text>
+
+  <!-- ROW 1C: False flexible -->
+  <rect x="0" y="320" width="1200" height="88" fill="#fafafa"/>
+  <line x1="0" y1="408" x2="1200" y2="408" stroke="#eeeeee" stroke-width="1"/>
+
+  <text x="272" y="343" style="font-size:12px;font-weight:600;fill:#8B0000;">False "Flexible" to get better comp</text>
+  <text x="272" y="359" style="font-size:11px;fill:#555555;">Player signals "Flexible" hoping</text>
+  <text x="272" y="374" style="font-size:11px;fill:#555555;">teammates will build around them,</text>
+  <text x="272" y="389" style="font-size:11px;fill:#555555;">then locks their preferred champ anyway.</text>
+
+  <!-- Risk: Low -->
+  <rect x="572" y="352" width="56" height="24" rx="12" fill="#edfaf4" stroke="#1D9E75" stroke-width="1"/>
+  <text x="600" y="368" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#085041;">LOW</text>
+
+  <text x="752" y="360" style="font-size:11px;fill:#555555;">Flex player slot</text>
+  <text x="752" y="375" style="font-size:11px;fill:#555555;">wasted — minor</text>
+  <text x="752" y="390" style="font-size:11px;fill:#555555;">coordination loss</text>
+
+  <text x="932" y="352" style="font-size:11px;fill:#0F6E56;">Opt-in system means</text>
+  <text x="932" y="367" style="font-size:11px;fill:#0F6E56;">this is equivalent to</text>
+  <text x="932" y="382" style="font-size:11px;fill:#0F6E56;">what already happens</text>
+  <text x="932" y="397" style="font-size:11px;fill:#0F6E56;">today. No regression.</text>
+
+  <!-- ── SECTION: LAYER 2 — CONFLICT DETECTION ── -->
+  <rect x="0" y="408" width="1200" height="32" fill="#1a1a1a"/>
+  <text x="20" y="429" style="font-size:12px;font-weight:700;fill:#c9a84c;">Layer 2 — Conflict detection nudge</text>
+
+  <!-- ROW 2A: Nudge ignored -->
+  <rect x="0" y="440" width="1200" height="88" fill="#fafafa"/>
+  <line x1="0" y1="528" x2="1200" y2="528" stroke="#eeeeee" stroke-width="1"/>
+
+  <text x="16" y="463" style="font-size:12px;font-weight:700;fill:#1a1a1a;">Conflict nudge</text>
+  <text x="16" y="480" style="font-size:11px;fill:#666666;">Amber notification</text>
+  <text x="16" y="495" style="font-size:11px;fill:#666666;">shown to the flex</text>
+  <text x="16" y="510" style="font-size:11px;fill:#666666;">player when comp</text>
+  <text x="16" y="525" style="font-size:11px;fill:#555555;">has a structural gap</text>
+
+  <text x="272" y="463" style="font-size:12px;font-weight:600;fill:#8B0000;">Nudge consistently dismissed</text>
+  <text x="272" y="479" style="font-size:11px;fill:#555555;">Players dismiss without reading,</text>
+  <text x="272" y="494" style="font-size:11px;fill:#555555;">rendering the feature useless.</text>
+  <text x="272" y="509" style="font-size:11px;fill:#555555;">Possible if nudge appears too often.</text>
+
+  <!-- Risk: Medium -->
+  <rect x="572" y="462" width="80" height="24" rx="12" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="612" y="478" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#854F0B;">MEDIUM</text>
+
+  <text x="752" y="470" style="font-size:11px;fill:#555555;">Flex player misses</text>
+  <text x="752" y="485" style="font-size:11px;fill:#555555;">useful comp info</text>
+  <text x="752" y="500" style="font-size:11px;fill:#555555;">No harm, just wasted</text>
+  <text x="752" y="515" style="font-size:11px;fill:#555555;">opportunity</text>
+
+  <text x="932" y="460" style="font-size:11px;fill:#0F6E56;">Threshold calibrated</text>
+  <text x="932" y="475" style="font-size:11px;fill:#0F6E56;">to objective structural</text>
+  <text x="932" y="490" style="font-size:11px;fill:#0F6E56;">gaps only — not every</text>
+  <text x="932" y="505" style="font-size:11px;fill:#0F6E56;">game. Nudge adoption</text>
+  <text x="932" y="520" style="font-size:11px;fill:#0F6E56;">tracked post-launch.</text>
+
+  <!-- ROW 2B: Wrong threshold -->
+  <rect x="0" y="528" width="1200" height="88" fill="#ffffff"/>
+  <line x1="0" y1="616" x2="1200" y2="616" stroke="#eeeeee" stroke-width="1"/>
+
+  <text x="272" y="551" style="font-size:12px;font-weight:600;fill:#8B0000;">Nudge fires on unconventional comps</text>
+  <text x="272" y="567" style="font-size:11px;fill:#555555;">System flags a valid off-meta comp</text>
+  <text x="272" y="582" style="font-size:11px;fill:#555555;">as a "gap." Flex player second-guesses</text>
+  <text x="272" y="597" style="font-size:11px;fill:#555555;">their pick unnecessarily.</text>
+
+  <!-- Risk: High -->
+  <rect x="572" y="550" width="68" height="24" rx="12" fill="#fff0f0" stroke="#cc0000" stroke-width="1"/>
+  <text x="606" y="566" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#8B0000;">HIGH</text>
+
+  <text x="752" y="558" style="font-size:11px;fill:#555555;">Flex player forced</text>
+  <text x="752" y="573" style="font-size:11px;fill:#555555;">into suboptimal pick</text>
+  <text x="752" y="588" style="font-size:11px;fill:#555555;">by an incorrect signal</text>
+
+  <text x="932" y="548" style="font-size:11px;fill:#0F6E56;">Threshold rule is strict:</text>
+  <text x="932" y="563" style="font-size:11px;fill:#0F6E56;">only fires on provably</text>
+  <text x="932" y="578" style="font-size:11px;fill:#0F6E56;">missing role categories.</text>
+  <text x="932" y="593" style="font-size:11px;fill:#0F6E56;">Nudge is dismissible.</text>
+  <text x="932" y="608" style="font-size:11px;fill:#0F6E56;">Requires data validation.</text>
+
+  <!-- ── SECTION: LAYER 3 — PLAYSTYLE SIGNAL ── -->
+  <rect x="0" y="616" width="1200" height="32" fill="#1a1a1a"/>
+  <text x="20" y="637" style="font-size:12px;font-weight:700;fill:#c9a84c;">Layer 3 — Playstyle signal</text>
+
+  <!-- ROW 3A: False playstyle -->
+  <rect x="0" y="648" width="1200" height="88" fill="#fafafa"/>
+  <line x1="0" y1="736" x2="1200" y2="736" stroke="#eeeeee" stroke-width="1"/>
+
+  <text x="16" y="671" style="font-size:12px;font-weight:700;fill:#1a1a1a;">Post-lock prompt</text>
+  <text x="16" y="688" style="font-size:11px;fill:#666666;">Playstyle signal</text>
+  <text x="16" y="703" style="font-size:11px;fill:#666666;">on loading screen</text>
+  <text x="16" y="718" style="font-size:11px;fill:#666666;">visible to all</text>
+
+  <text x="272" y="671" style="font-size:12px;font-weight:600;fill:#8B0000;">False playstyle to mislead</text>
+  <text x="272" y="687" style="font-size:11px;fill:#555555;">Player signals "Aggressive early"</text>
+  <text x="272" y="702" style="font-size:11px;fill:#555555;">to bait enemy into early fights,</text>
+  <text x="272" y="717" style="font-size:11px;fill:#555555;">then plays passive to counter.</text>
+
+  <!-- Risk: Low -->
+  <rect x="572" y="670" width="56" height="24" rx="12" fill="#edfaf4" stroke="#1D9E75" stroke-width="1"/>
+  <text x="600" y="686" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#085041;">LOW</text>
+
+  <text x="752" y="678" style="font-size:11px;fill:#555555;">Enemy doesn't see</text>
+  <text x="752" y="693" style="font-size:11px;fill:#555555;">loading screen tokens.</text>
+  <text x="752" y="708" style="font-size:11px;fill:#555555;">Only affects your own</text>
+  <text x="752" y="723" style="font-size:11px;fill:#555555;">teammates</text>
+
+  <text x="932" y="668" style="font-size:11px;fill:#0F6E56;">Tokens are teammate-</text>
+  <text x="932" y="683" style="font-size:11px;fill:#0F6E56;">only. Enemy team never</text>
+  <text x="932" y="698" style="font-size:11px;fill:#0F6E56;">sees them. Misuse only</text>
+  <text x="932" y="713" style="font-size:11px;fill:#0F6E56;">affects own team —</text>
+  <text x="932" y="728" style="font-size:11px;fill:#0F6E56;">equivalent to saying nothing.</text>
+
+  <!-- ROW 3B: Blame via token -->
+  <rect x="0" y="736" width="1200" height="84" fill="#ffffff"/>
+  <line x1="0" y1="820" x2="1200" y2="820" stroke="#eeeeee" stroke-width="1"/>
+
+  <text x="272" y="759" style="font-size:12px;font-weight:600;fill:#8B0000;">"Scaling" used to blame teammates</text>
+  <text x="272" y="775" style="font-size:11px;fill:#555555;">Player signals "Scaling — protect me"</text>
+  <text x="272" y="790" style="font-size:11px;fill:#555555;">then blames support when they die</text>
+  <text x="272" y="805" style="font-size:11px;fill:#555555;">despite not being protected.</text>
+
+  <!-- Risk: Medium -->
+  <rect x="572" y="758" width="80" height="24" rx="12" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="612" y="774" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#854F0B;">MEDIUM</text>
+
+  <text x="752" y="764" style="font-size:11px;fill:#555555;">Support tilted by</text>
+  <text x="752" y="779" style="font-size:11px;fill:#555555;">perceived failure to</text>
+  <text x="752" y="794" style="font-size:11px;fill:#555555;">meet token promise</text>
+
+  <text x="932" y="756" style="font-size:11px;fill:#0F6E56;">Tokens are explicitly</text>
+  <text x="932" y="771" style="font-size:11px;fill:#0F6E56;">non-binding. Framing</text>
+  <text x="932" y="786" style="font-size:11px;fill:#0F6E56;">in UI makes clear they</text>
+  <text x="932" y="801" style="font-size:11px;fill:#0F6E56;">are starting intent,</text>
+  <text x="932" y="816" style="font-size:11px;fill:#0F6E56;">not a commitment.</text>
+
+  <!-- ── FOOTER / LEGEND ── -->
+  <rect x="0" y="820" width="1200" height="40" fill="#f5f5f5"/>
+  <line x1="0" y1="820" x2="1200" y2="820" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Risk legend -->
+  <text x="20" y="838" style="font-size:10px;font-weight:700;fill:#888888;letter-spacing:0.06em;">RISK LEVELS</text>
+
+  <rect x="112" y="827" width="56" height="20" rx="10" fill="#fff0f0" stroke="#cc0000" stroke-width="1"/>
+  <text x="140" y="841" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#8B0000;">HIGH</text>
+  <text x="176" y="841" style="font-size:10px;fill:#666666;">Directly harms player experience · needs design mitigation</text>
+
+  <rect x="560" y="827" width="80" height="20" rx="10" fill="#FFF3CC" stroke="#EF9F27" stroke-width="1"/>
+  <text x="600" y="841" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#854F0B;">MEDIUM</text>
+  <text x="648" y="841" style="font-size:10px;fill:#666666;">Manageable · monitor post-launch</text>
+
+  <rect x="860" y="827" width="56" height="20" rx="10" fill="#edfaf4" stroke="#1D9E75" stroke-width="1"/>
+  <text x="888" y="841" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#085041;">LOW</text>
+  <text x="924" y="841" style="font-size:10px;fill:#666666;">Equivalent to current system · acceptable</text>
+
+  <text x="1180" y="841" text-anchor="end" style="font-size:10px;fill:#aaaaaa;">Kevina Seo · 2025</text>
+</svg>
