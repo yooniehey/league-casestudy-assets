@@ -1,0 +1,130 @@
+<svg width="1200" height="540" viewBox="0 0 1200 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      * { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="540" fill="#f5f5f5" rx="12"/>
+
+  <!-- Header -->
+  <rect width="1200" height="52" fill="#0a0a0a" rx="12"/>
+  <rect x="0" y="40" width="1200" height="12" fill="#0a0a0a"/>
+  <text x="40" y="22" style="font-size:11px;font-weight:700;fill:#c9a84c;letter-spacing:0.12em;text-transform:uppercase;">Iteration 01 — Token count</text>
+  <text x="40" y="40" style="font-size:11px;fill:#666666;letter-spacing:0.04em;">Key design change: 8 tokens → 4 tokens · Champion select intent system · Kevina Seo · 2025</text>
+
+  <!-- ── LEFT CARD — V1 Rejected ── -->
+  <rect x="40" y="72" width="510" height="384" rx="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Card header -->
+  <rect x="40" y="72" width="510" height="52" rx="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+  <rect x="40" y="104" width="510" height="20" fill="#ffffff"/>
+  <text x="60" y="92" style="font-size:10px;font-weight:700;fill:#c94040;letter-spacing:0.1em;text-transform:uppercase;">V1 — Rejected</text>
+  <text x="60" y="110" style="font-size:15px;font-weight:700;fill:#1a1a1a;">8 tokens</text>
+  <line x1="40" y1="124" x2="550" y2="124" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Card body — dark bg -->
+  <rect x="40" y="124" width="510" height="332" rx="0" fill="#070b10"/>
+  <rect x="40" y="124" width="510" height="332" rx="8" fill="#070b10"/>
+  <rect x="40" y="124" width="510" height="8" fill="#070b10"/>
+
+  <!-- Prompt label -->
+  <text x="60" y="152" style="font-family:'Courier New',monospace;font-size:10px;fill:#c9a84c;letter-spacing:0.12em;text-transform:uppercase;">What's your draft intent?</text>
+
+  <!-- 8 token buttons — row 1 -->
+  <!-- One-trick -->
+  <rect x="60" y="164" width="90" height="28" rx="2" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.35)" stroke-width="1"/>
+  <text x="105" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;text-transform:uppercase;">One-trick</text>
+
+  <!-- Flexible -->
+  <rect x="158" y="164" width="76" height="28" rx="2" fill="rgba(36,150,190,0.12)" stroke="rgba(36,150,190,0.35)" stroke-width="1"/>
+  <text x="196" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#2496be;letter-spacing:0.05em;text-transform:uppercase;">Flexible</text>
+
+  <!-- Counter-pick -->
+  <rect x="242" y="164" width="96" height="28" rx="2" fill="rgba(201,64,64,0.12)" stroke="rgba(201,64,64,0.35)" stroke-width="1"/>
+  <text x="290" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#c94040;letter-spacing:0.05em;text-transform:uppercase;">Counter-pick</text>
+
+  <!-- Autofilled -->
+  <rect x="346" y="164" width="80" height="28" rx="2" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="386" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#666666;letter-spacing:0.05em;text-transform:uppercase;">Autofilled</text>
+
+  <!-- 8 token buttons — row 2 -->
+  <!-- First-timing -->
+  <rect x="60" y="200" width="92" height="28" rx="2" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="106" y="218" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#555555;letter-spacing:0.05em;text-transform:uppercase;">First-timing</text>
+
+  <!-- Off-meta -->
+  <rect x="160" y="200" width="76" height="28" rx="2" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="198" y="218" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#555555;letter-spacing:0.05em;text-transform:uppercase;">Off-meta</text>
+
+  <!-- Smurf -->
+  <rect x="244" y="200" width="60" height="28" rx="2" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="274" y="218" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#555555;letter-spacing:0.05em;text-transform:uppercase;">Smurf</text>
+
+  <!-- Duo -->
+  <rect x="312" y="200" width="50" height="28" rx="2" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="337" y="218" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#555555;letter-spacing:0.05em;text-transform:uppercase;">Duo</text>
+
+  <!-- Problem callout -->
+  <rect x="60" y="244" width="470" height="44" rx="3" fill="rgba(201,64,64,0.08)" stroke="rgba(201,64,64,0.25)" stroke-width="1"/>
+  <text x="80" y="262" style="font-family:'Courier New',monospace;font-size:10px;fill:#c94040;">Players skipped the prompt entirely — too many</text>
+  <text x="80" y="276" style="font-family:'Courier New',monospace;font-size:10px;fill:#c94040;">choices under 60-second time pressure</text>
+
+  <!-- Rejected X stamp -->
+  <rect x="430" y="80" width="100" height="36" rx="4" fill="rgba(201,64,64,0.12)" stroke="#c94040" stroke-width="1.5"/>
+  <text x="480" y="103" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#c94040;letter-spacing:0.05em;">✕  REJECTED</text>
+
+  <!-- ── ARROW ── -->
+  <text x="600" y="278" text-anchor="middle" style="font-size:28px;fill:#888888;">→</text>
+
+  <!-- ── RIGHT CARD — V2 Chosen ── -->
+  <rect x="650" y="72" width="510" height="384" rx="8" fill="#ffffff" stroke="#c9a84c" stroke-width="2"/>
+
+  <!-- Card header -->
+  <rect x="650" y="72" width="510" height="52" rx="8" fill="#ffffff"/>
+  <rect x="650" y="104" width="510" height="20" fill="#ffffff"/>
+  <text x="670" y="92" style="font-size:10px;font-weight:700;fill:#c9a84c;letter-spacing:0.1em;text-transform:uppercase;">V2 — Chosen</text>
+  <text x="670" y="110" style="font-size:15px;font-weight:700;fill:#1a1a1a;">4 tokens</text>
+  <line x1="650" y1="124" x2="1160" y2="124" stroke="#c9a84c" stroke-width="0.5"/>
+
+  <!-- Card body — dark bg -->
+  <rect x="650" y="124" width="510" height="332" rx="8" fill="#070b10"/>
+  <rect x="650" y="124" width="510" height="8" fill="#070b10"/>
+
+  <!-- Prompt label -->
+  <text x="670" y="152" style="font-family:'Courier New',monospace;font-size:10px;fill:#c9a84c;letter-spacing:0.12em;text-transform:uppercase;">What's your draft intent?</text>
+
+  <!-- 4 token buttons — single row -->
+  <!-- One-trick -->
+  <rect x="670" y="164" width="90" height="28" rx="2" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.35)" stroke-width="1"/>
+  <text x="715" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;letter-spacing:0.05em;text-transform:uppercase;">One-trick</text>
+
+  <!-- Flexible -->
+  <rect x="768" y="164" width="76" height="28" rx="2" fill="rgba(36,150,190,0.12)" stroke="rgba(36,150,190,0.35)" stroke-width="1"/>
+  <text x="806" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#2496be;letter-spacing:0.05em;text-transform:uppercase;">Flexible</text>
+
+  <!-- Counter-pick -->
+  <rect x="852" y="164" width="96" height="28" rx="2" fill="rgba(201,64,64,0.12)" stroke="rgba(201,64,64,0.35)" stroke-width="1"/>
+  <text x="900" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#c94040;letter-spacing:0.05em;text-transform:uppercase;">Counter-pick</text>
+
+  <!-- Autofilled -->
+  <rect x="956" y="164" width="80" height="28" rx="2" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="996" y="182" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#666666;letter-spacing:0.05em;text-transform:uppercase;">Autofilled</text>
+
+  <!-- Success callout -->
+  <rect x="670" y="208" width="470" height="44" rx="3" fill="rgba(29,158,117,0.08)" stroke="rgba(29,158,117,0.25)" stroke-width="1"/>
+  <text x="690" y="226" style="font-family:'Courier New',monospace;font-size:10px;fill:#1D9E75;">Covers 90% of high-value cases</text>
+  <text x="690" y="240" style="font-family:'Courier New',monospace;font-size:10px;fill:#1D9E75;">Scannable in under 2 seconds</text>
+
+  <!-- Chosen checkmark -->
+  <rect x="1040" y="80" width="100" height="36" rx="4" fill="rgba(29,158,117,0.1)" stroke="#1D9E75" stroke-width="1.5"/>
+  <text x="1090" y="103" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#1D9E75;letter-spacing:0.05em;">✓  CHOSEN</text>
+
+  <!-- ── RATIONALE STRIP ── -->
+  <rect x="40" y="472" width="1120" height="52" rx="0" fill="#ffffff"/>
+  <rect x="40" y="472" width="3" height="52" fill="#c9a84c"/>
+  <text x="56" y="492" style="font-size:12px;font-weight:700;fill:#1a1a1a;">Why 4?</text>
+  <text x="56" y="510" style="font-size:12px;fill:#666666;">Starting with 8 tokens created decision paralysis — players skipped the prompt entirely. Cutting to 4 meant asking: what's the smallest set that covers the highest-value</text>
+  <text x="56" y="526" style="font-size:12px;fill:#666666;">cases? One-trick, Flexible, Counter-pick, and Autofilled cover the four states that most change how a teammate should play around you.</text>
+</svg>
