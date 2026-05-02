@@ -1,0 +1,204 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>* { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; }</style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="560" fill="#f5f5f5" rx="12"/>
+
+  <!-- Header -->
+  <rect width="1200" height="52" fill="#0a0a0a" rx="12"/>
+  <rect y="40" width="1200" height="12" fill="#0a0a0a"/>
+  <text x="40" y="22" style="font-size:11px;font-weight:700;fill:#c9a84c;letter-spacing:0.12em;text-transform:uppercase;">Iteration 03 — Conflict nudge tone</text>
+  <text x="40" y="40" style="font-size:11px;fill:#666666;">Key design change: red warning banner → amber soft nudge · Champion select intent system · Kevina Seo · 2025</text>
+
+  <!-- ═══════════════════════════════════════
+       LEFT — V1 Rejected: red warning banner
+  ═══════════════════════════════════════ -->
+  <rect x="40" y="72" width="510" height="400" rx="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Card header -->
+  <text x="60" y="96" style="font-size:10px;font-weight:700;fill:#c94040;letter-spacing:0.1em;text-transform:uppercase;">V1 — Rejected</text>
+  <text x="60" y="114" style="font-size:15px;font-weight:700;fill:#1a1a1a;">Red warning banner</text>
+  <line x1="40" y1="128" x2="550" y2="128" stroke="#e0e0e0" stroke-width="0.5"/>
+
+  <!-- Mockup dark bg -->
+  <rect x="40" y="128" width="510" height="344" rx="0" fill="#070b10"/>
+  <rect x="40" y="128" width="510" height="8" fill="#070b10"/>
+  <rect x="40" y="456" width="510" height="16" fill="#070b10" rx="8"/>
+
+  <!-- Phase bar -->
+  <rect x="40" y="128" width="510" height="24" fill="#0a0e14"/>
+  <text x="160" y="144" style="font-family:'Courier New',monospace;font-size:8px;fill:#c9a84c;letter-spacing:0.15em;text-transform:uppercase;">Pick Phase — Round 2 of 3</text>
+  <text x="464" y="144" style="font-family:'Courier New',monospace;font-size:13px;fill:#f0ece4;">00:22</text>
+
+  <!-- Left team column -->
+  <rect x="50" y="160" width="130" height="250" fill="rgba(20,60,100,0.15)"/>
+  <text x="115" y="176" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:7px;fill:#2496be;letter-spacing:0.08em;text-transform:uppercase;">Your Team</text>
+
+  <rect x="55" y="182" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="57" y="186" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="71" y="204" text-anchor="middle" style="font-size:13px;">⚔</text>
+  <text x="92" y="197" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Yasuo</text>
+  <text x="92" y="209" style="font-family:'Courier New',monospace;font-size:7px;fill:#c9a84c;">One-trick</text>
+
+  <rect x="55" y="226" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="57" y="230" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="71" y="248" text-anchor="middle" style="font-size:13px;">⚡</text>
+  <text x="92" y="241" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Zed</text>
+  <text x="92" y="253" style="font-family:'Courier New',monospace;font-size:7px;fill:#c9a84c;">One-trick</text>
+
+  <rect x="55" y="270" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="57" y="274" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="71" y="292" text-anchor="middle" style="font-size:13px;">🔥</text>
+  <text x="92" y="285" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Draven</text>
+  <text x="92" y="297" style="font-family:'Courier New',monospace;font-size:7px;fill:#c9a84c;">One-trick</text>
+
+  <rect x="55" y="314" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="57" y="318" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="71" y="336" text-anchor="middle" style="font-size:13px;">🏹</text>
+  <text x="92" y="329" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Vi</text>
+  <text x="92" y="341" style="font-family:'Courier New',monospace;font-size:7px;fill:#2496be;">Flexible</text>
+
+  <rect x="55" y="358" width="120" height="40" rx="2" fill="rgba(201,168,76,0.04)" stroke="rgba(201,168,76,0.3)" stroke-width="0.5"/>
+  <rect x="57" y="362" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="71" y="380" text-anchor="middle" style="font-size:13px;">?</text>
+  <text x="92" y="373" style="font-family:'Courier New',monospace;font-size:8px;fill:#c9a84c;">Picking...</text>
+  <text x="92" y="385" style="font-family:'Courier New',monospace;font-size:7px;fill:#2496be;">Flexible</text>
+
+  <!-- CENTER — RED WARNING BANNER -->
+  <rect x="192" y="160" width="230" height="250" fill="rgba(255,255,255,0.01)"/>
+
+  <!-- The red warning — this is the rejected version -->
+  <rect x="198" y="270" width="218" height="72" rx="3" fill="rgba(201,64,64,0.15)" stroke="#c94040" stroke-width="2"/>
+  <!-- Red header bar -->
+  <rect x="198" y="270" width="218" height="28" rx="3" fill="rgba(201,64,64,0.3)"/>
+  <rect x="198" y="284" width="218" height="14" fill="rgba(201,64,64,0.3)"/>
+  <text x="218" y="289" style="font-family:'Courier New',monospace;font-size:9px;font-weight:700;fill:#ffffff;letter-spacing:0.06em;text-transform:uppercase;">⚠ COMP WARNING</text>
+  <text x="208" y="308" style="font-family:'Courier New',monospace;font-size:8px;fill:#ffaaaa;">Your team comp is rated 2/10.</text>
+  <text x="208" y="320" style="font-family:'Courier New',monospace;font-size:8px;fill:#ffaaaa;">No tank. No engage. This will</text>
+  <text x="208" y="332" style="font-family:'Courier New',monospace;font-size:8px;fill:#ffaaaa;">make the game significantly</text>
+
+  <!-- Angry emoji reaction from player -->
+  <rect x="198" y="352" width="218" height="36" rx="2" fill="rgba(255,255,255,0.03)"/>
+  <text x="208" y="368" style="font-family:'Courier New',monospace;font-size:8px;fill:#c94040;font-style:italic;">"Why is the game calling me bad?</text>
+  <text x="208" y="380" style="font-family:'Courier New',monospace;font-size:8px;fill:#c94040;font-style:italic;">I know what I'm doing" — player</text>
+
+  <!-- Right column enemy -->
+  <rect x="430" y="160" width="100" height="250" fill="rgba(100,20,20,0.1)"/>
+  <text x="480" y="176" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:7px;fill:#c94040;letter-spacing:0.08em;text-transform:uppercase;">Enemy</text>
+  <rect x="435" y="182" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="435" y="222" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="435" y="262" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="435" y="302" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="435" y="342" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+
+  <!-- Problem callout -->
+  <rect x="50" y="418" width="480" height="40" rx="3" fill="rgba(201,64,64,0.08)" stroke="rgba(201,64,64,0.25)" stroke-width="1"/>
+  <text x="70" y="434" style="font-family:'Courier New',monospace;font-size:9px;fill:#c94040;">Interview participants reacted with immediate defensiveness.</text>
+  <text x="70" y="448" style="font-family:'Courier New',monospace;font-size:9px;fill:#c94040;">Feels like the game is calling you bad. Triggers resentment.</text>
+
+  <!-- Rejected stamp -->
+  <rect x="390" y="80" width="130" height="34" rx="4" fill="rgba(201,64,64,0.12)" stroke="#c94040" stroke-width="1.5"/>
+  <text x="455" y="101" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#c94040;letter-spacing:0.05em;">✕  REJECTED</text>
+
+  <!-- ── ARROW ── -->
+  <text x="600" y="295" text-anchor="middle" style="font-size:28px;fill:#888888;">→</text>
+
+  <!-- ═══════════════════════════════════════
+       RIGHT — V2 Chosen: amber soft nudge
+  ═══════════════════════════════════════ -->
+  <rect x="650" y="72" width="510" height="400" rx="8" fill="#ffffff" stroke="#c9a84c" stroke-width="2"/>
+
+  <!-- Card header -->
+  <text x="670" y="96" style="font-size:10px;font-weight:700;fill:#c9a84c;letter-spacing:0.1em;text-transform:uppercase;">V2 — Chosen</text>
+  <text x="670" y="114" style="font-size:15px;font-weight:700;fill:#1a1a1a;">Amber soft nudge</text>
+  <line x1="650" y1="128" x2="1160" y2="128" stroke="#c9a84c" stroke-width="0.5"/>
+
+  <!-- Mockup dark bg -->
+  <rect x="650" y="128" width="510" height="344" rx="0" fill="#070b10"/>
+  <rect x="650" y="128" width="510" height="8" fill="#070b10"/>
+  <rect x="650" y="456" width="510" height="16" fill="#070b10" rx="8"/>
+
+  <!-- Phase bar -->
+  <rect x="650" y="128" width="510" height="24" fill="#0a0e14"/>
+  <text x="770" y="144" style="font-family:'Courier New',monospace;font-size:8px;fill:#c9a84c;letter-spacing:0.15em;text-transform:uppercase;">Pick Phase — Round 2 of 3</text>
+  <text x="1074" y="144" style="font-family:'Courier New',monospace;font-size:13px;fill:#f0ece4;">00:22</text>
+
+  <!-- Left team column -->
+  <rect x="660" y="160" width="130" height="250" fill="rgba(20,60,100,0.15)"/>
+  <text x="725" y="176" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:7px;fill:#2496be;letter-spacing:0.08em;text-transform:uppercase;">Your Team</text>
+
+  <rect x="665" y="182" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="667" y="186" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="681" y="204" text-anchor="middle" style="font-size:13px;">⚔</text>
+  <text x="702" y="197" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Yasuo</text>
+  <text x="702" y="209" style="font-family:'Courier New',monospace;font-size:7px;fill:#c9a84c;">One-trick</text>
+
+  <rect x="665" y="226" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="667" y="230" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="681" y="248" text-anchor="middle" style="font-size:13px;">⚡</text>
+  <text x="702" y="241" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Zed</text>
+  <text x="702" y="253" style="font-family:'Courier New',monospace;font-size:7px;fill:#c9a84c;">One-trick</text>
+
+  <rect x="665" y="270" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="667" y="274" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="681" y="292" text-anchor="middle" style="font-size:13px;">🔥</text>
+  <text x="702" y="285" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Draven</text>
+  <text x="702" y="297" style="font-family:'Courier New',monospace;font-size:7px;fill:#c9a84c;">One-trick</text>
+
+  <rect x="665" y="314" width="120" height="40" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+  <rect x="667" y="318" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="681" y="336" text-anchor="middle" style="font-size:13px;">🏹</text>
+  <text x="702" y="329" style="font-family:'Courier New',monospace;font-size:8px;fill:#f0ece4;">Vi</text>
+  <text x="702" y="341" style="font-family:'Courier New',monospace;font-size:7px;fill:#2496be;">Flexible</text>
+
+  <rect x="665" y="358" width="120" height="40" rx="2" fill="rgba(201,168,76,0.04)" stroke="rgba(201,168,76,0.3)" stroke-width="0.5"/>
+  <rect x="667" y="362" width="28" height="28" rx="2" fill="rgba(255,255,255,0.05)"/>
+  <text x="681" y="380" text-anchor="middle" style="font-size:13px;">?</text>
+  <text x="702" y="373" style="font-family:'Courier New',monospace;font-size:8px;fill:#c9a84c;">Picking...</text>
+  <text x="702" y="385" style="font-family:'Courier New',monospace;font-size:7px;fill:#2496be;">Flexible</text>
+
+  <!-- CENTER — AMBER SOFT NUDGE -->
+  <rect x="802" y="160" width="230" height="250" fill="rgba(255,255,255,0.01)"/>
+
+  <!-- The amber nudge — chosen version -->
+  <rect x="808" y="286" width="218" height="64" rx="3" fill="rgba(201,168,76,0.06)" stroke="rgba(201,168,76,0.25)" stroke-width="1"/>
+  <!-- Small info icon -->
+  <circle cx="824" cy="302" r="7" fill="rgba(201,168,76,0.2)" stroke="rgba(201,168,76,0.5)" stroke-width="0.8"/>
+  <text x="824" y="306" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:9px;fill:#c9a84c;font-weight:700;">!</text>
+  <text x="838" y="300" style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(240,236,228,0.8);">Your team has 3 carries and</text>
+  <text x="838" y="312" style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(240,236,228,0.8);">no engage. Your last pick</text>
+  <text x="838" y="324" style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(240,236,228,0.8);">could address this.</text>
+  <text x="998" y="344" text-anchor="end" style="font-family:'Courier New',monospace;font-size:7px;fill:#666;">dismiss</text>
+
+  <!-- Player calm reaction -->
+  <rect x="808" y="360" width="218" height="32" rx="2" fill="rgba(255,255,255,0.02)"/>
+  <text x="818" y="372" style="font-family:'Courier New',monospace;font-size:8px;fill:#1D9E75;font-style:italic;">"Right — I should play Thresh."</text>
+  <text x="818" y="384" style="font-family:'Courier New',monospace;font-size:8px;fill:#1D9E75;font-style:italic;">Player felt informed, not judged.</text>
+
+  <!-- Right column enemy -->
+  <rect x="1040" y="160" width="100" height="250" fill="rgba(100,20,20,0.1)"/>
+  <text x="1090" y="176" text-anchor="middle" style="font-family:'Courier New',monospace;font-size:7px;fill:#c94040;letter-spacing:0.08em;text-transform:uppercase;">Enemy</text>
+  <rect x="1045" y="182" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="1045" y="222" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="1045" y="262" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="1045" y="302" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+  <rect x="1045" y="342" width="90" height="36" rx="2" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+
+  <!-- Success callout -->
+  <rect x="660" y="418" width="480" height="40" rx="3" fill="rgba(29,158,117,0.08)" stroke="rgba(29,158,117,0.25)" stroke-width="1"/>
+  <text x="680" y="434" style="font-family:'Courier New',monospace;font-size:9px;fill:#1D9E75;">Same information. No judgment. Easy to dismiss.</text>
+  <text x="680" y="448" style="font-family:'Courier New',monospace;font-size:9px;fill:#1D9E75;">Player felt informed, not graded. Validated by interviews.</text>
+
+  <!-- Chosen stamp -->
+  <rect x="1020" y="80" width="120" height="34" rx="4" fill="rgba(29,158,117,0.1)" stroke="#1D9E75" stroke-width="1.5"/>
+  <text x="1080" y="101" text-anchor="middle" style="font-size:12px;font-weight:700;fill:#1D9E75;letter-spacing:0.05em;">✓  CHOSEN</text>
+
+  <!-- ── RATIONALE STRIP ── -->
+  <rect x="40" y="484" width="1120" height="56" fill="#ffffff"/>
+  <rect x="40" y="484" width="3" height="56" fill="#c9a84c"/>
+  <text x="56" y="504" style="font-size:12px;font-weight:700;fill:#1a1a1a;">Why amber over red?</text>
+  <text x="56" y="522" style="font-size:12px;fill:#666666;">The red warning banner triggered immediate defensiveness in both interview participants — "why is the game calling me bad?" The amber nudge delivers the</text>
+  <text x="56" y="538" style="font-size:12px;fill:#666666;">exact same information using natural language, without a score, without a judgment. The player feels informed and empowered. The feeling is completely different.</text>
+</svg>
